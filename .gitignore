@@ -1,0 +1,41 @@
+# 环境与编辑器
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# 战利品 / 靶场数据（绝不入库）
+loot/
+*.loot
+*_walkthrough_private.md
+
+# 凭据（绝不入库）
+*.ovpn
+*.pem
+*.key
+*.ccache
+*.pfx
+.env
+.env.*
+credentials*
+*secret*
+*password*
+
+# 扫描输出
+*.nmap
+*.gnmap
+*.xml
+nmap_*
+gobuster_*
+ffuf_*
+
+# 依赖
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# 编辑器配置
+.vscode/
+.idea/
